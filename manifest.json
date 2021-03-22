@@ -1,0 +1,31 @@
+{
+    "name": "Wildly RGB",
+    "version": "1.0",
+    "description": "This theme is features the RGB color scheme!",
+    "manifest_version": 2,
+    "theme": {
+        "images": {
+            "theme_frame": "images\/theme_frame.png",
+            "theme_toolbar": "images\/theme_toolbar.png",
+            "theme_tab_background": "images\/theme_tab_background.png"
+        },
+        "colors": {
+            "frame": [0, 65, 255],
+            "toolbar": [255, 0, 0],
+            "tab_text": [0, 0, 0],
+            "tab_background_text": [0, 0, 0],
+            "bookmark_text": [60, 64, 67],
+            "ntp_background": [255, 255, 255],
+            "ntp_text": [0, 0, 0],
+            "ntp_link": [6, 55, 116],
+            "button_background": [255, 0, 0, 1]
+        },
+        "tints": {
+            "buttons": [0, 1, 0.5]
+        },
+        "properties": {
+            "ntp_background_alignment": "bottom",
+            "ntp_background_repeat": "no-repeat"
+        }
+    }
+}
